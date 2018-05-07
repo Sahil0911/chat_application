@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="minor.group.LoginController">
+   <children>
+      <Button id="loginBtn" fx:id="go_chat" layoutX="84.0" layoutY="102.0" mnemonicParsing="false" onAction="#go_chat" prefHeight="50.0" prefWidth="237.0" style="-fx-background-color: #2aa1cc;" text="Chat" textFill="WHITE">
+                 <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button id="loginBtn" layoutX="84.0" layoutY="228.0" mnemonicParsing="false" onAction="#go_findfriend" prefHeight="50.0" prefWidth="237.0" style="-fx-background-color: #2aa1cc;" text="Find a friend" textFill="WHITE">
+              <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
